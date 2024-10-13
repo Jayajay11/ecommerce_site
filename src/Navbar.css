@@ -1,0 +1,26 @@
+/* src/components/Navbar.css */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    z-index: 100;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s ease;
+  }
+  
